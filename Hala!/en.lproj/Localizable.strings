@@ -1,0 +1,162 @@
+/* 
+  Localizable.strings
+  Hala!
+
+  Created by MAC on 30/10/17.
+  Copyright © 2017 Orem. All rights reserved.
+*/
+
+
+
+"Email" = "Email";
+
+"Password" = "Password";
+
+"Please check after few hours" =  "Please check after few hours";
+
+"Groups" = "Groups";
+
+"Create Group" = "Create Group";
+
+"Describe a group" = "Describe a group";
+
+"Chat" = "Chat";
+
+"Points" = "Points";
+
+"Find People" = "Find People";
+
+"View Profile" = "View Profile";
+
+"Hotlist" = "Hotlist";
+
+"Share App" = "Share App";
+
+"Settings" = "Settings";
+
+"Logout" = "Logout";
+
+//"ID" = "ID";
+
+"Unblock" = "Unblock";
+
+"Remove from hotlist" = "Remove from hotlist";
+
+"View on map" = "View on map";
+
+"Block" = "Block";
+
+"Add to hotlist" = "Add to hotlist";
+
+"Male" = "Male";
+
+"Female" = "Female";
+
+"Both" = "Both";
+
+"Other" = "Other";
+
+"Yes" = "Yes";
+
+"No" = "No";
+
+"Ocassionally" = "Ocassionally";
+
+"Cricket" = "Cricket";
+"Football" = "Football";
+"Music" = "Music";
+"Reading" = "Reading";
+"Sports" = "Sports";
+"Single" = "Single";
+"Married" = "Married";
+
+"It's Complicated" = "It's Complicated";
+
+"In a Relationship" = "In a Relationship";
+
+"Engaged" = "Engaged";
+
+"In a Domestic Partnership" = "In a Domestic Partnership";
+"Report" = "Report";
+
+
+"4.0" = "4.0";
+"4.1" = "4.1";
+"4.2" = "4.2";
+"4.3" = "4.3";
+"4.4" = "4.4";
+"4.5" = "4.5";
+"4.6" = "4.6";
+"4.7" = "4.7";
+"4.8" = "4.8";
+"4.9" = "4.9";
+"4.10" = "4.10";
+"4.11" = "4.11";
+"5.0" = "5.0";
+"5.1" = "5.1";
+"5.2" = "5.2";
+"5.3" = "5.3";
+"5.4" = "5.4";
+"5.5" = "5.5";
+"5.6" = "5.6";
+"5.7" = "5.7";
+"5.8" = "5.8";
+"5.9" = "5.9";
+"5.10" = "5.10";
+"5.11" = "5.11";
+"6.0" = "6.0";
+"6.1" = "6.1";
+"6.2" = "6.2";
+"6.3" = "6.3";
+"6.4" = "6.4";
+"6.5" = "6.5";
+"6.6" = "6.6";
+"6.7" = "6.7";
+"6.8" = "6.8";
+"6.9" = "6.9";
+"6.10" = "6.10";
+"6.11" = "6.11";
+"7.0" = "7.0";
+"7.1" = "7.1";
+"7.2" = "7.2";
+"7.3" = "7.3";
+"7.4" = "7.4";
+"7.5" = "7.5";
+"7.6" = "7.6";
+"7.7" = "7.7";
+"7.8" = "7.8";
+"7.9" = "7.9";
+
+"Creating..." = "Creating...";
+"Create Group" = "Create Group";
+"Group Created" = "Group Created";
+"Please Select Image" = "Please Select Image";
+"Camera" = "Camera";
+"Gallery" = "Gallery";
+"Cancel" = "Cancel";
+"This device has no Camera" = "This device has no Camera";
+"Block List" = "قائمة الحظر";
+"Internet Connectivity is Not Available" = "Internet Connectivity is Not Available";
+"Server Not Responding" = "Server Not Responding";
+"Loading..." =  "Loading...";
+"Please Enter Required Fields" = "Please Enter Required Fields";
+"Please Enter Valid Email" = "Please Enter Valid Email";
+"Please enter group name" = "Please enter group name";
+"Camera Not Found" = "Camera Not Found";
+
+"User reported to the admin" = "User reported to the admin";
+"Profile Updated" = "Profile Updated";
+"added to hotlist" = "added to hotlist";
+"was blocked by you" = "was blocked by you";
+"Years" = "Years";
+"User removed from the blocklist" = "User removed from the blocklist";
+
+"Notifications" = "Notifications";
+"Privacy Policies" = "Privacy Policies";
+"About Us" = "About Us";
+"Change Password" = "Change Password";
+"Blocked List" = "Blocked List";
+
+"Later" = "Later";
+"Logout" = "Logout";
+

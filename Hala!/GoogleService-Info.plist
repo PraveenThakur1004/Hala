@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+        <string>ca-app-pub-3940256099942544/2934735716</string>
+        <key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+        <string>ca-app-pub-3940256099942544/4411468910</string>
+        <key>CLIENT_ID</key>
+        <string>461953011017-k98vukjd7f0mm3ujq8qar0ndalucth33.apps.googleusercontent.com</string>
+        <key>REVERSED_CLIENT_ID</key>
+        <string>com.googleusercontent.apps.461953011017-k98vukjd7f0mm3ujq8qar0ndalucth33</string>
+        <key>API_KEY</key>
+        <string>AIzaSyBeanxTIvU-7AOYTJWIAIb6vyQvS5N_1CY</string>
+        <key>GCM_SENDER_ID</key>
+        <string>461953011017</string>
+        <key>PLIST_VERSION</key>
+        <string>1</string>
+        <key>BUNDLE_ID</key>
+        <string>com.halaapp.dev</string>
+        <key>PROJECT_ID</key>
+        <string>hala-d68fd</string>
+        <key>STORAGE_BUCKET</key>
+        <string>hala-d68fd.appspot.com</string>
+        <key>IS_ADS_ENABLED</key>
+        <true></true>
+        <key>IS_ANALYTICS_ENABLED</key>
+        <false></false>
+        <key>IS_APPINVITE_ENABLED</key>
+        <false></false>
+        <key>IS_GCM_ENABLED</key>
+        <true></true>
+        <key>IS_SIGNIN_ENABLED</key>
+        <true></true>
+        <key>GOOGLE_APP_ID</key>
+        <string>1:461953011017:ios:20e848c906b5b2f1</string>
+        <key>DATABASE_URL</key>
+        <string>https://hala-d68fd.firebaseio.com</string>
+    </dict>
+</plist>
+

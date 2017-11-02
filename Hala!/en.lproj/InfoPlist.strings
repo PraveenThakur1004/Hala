@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Hala!
+
+  Created by MAC on 31/10/17.
+  Copyright © 2017 Orem. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Hala!";
+
+"CFBundleName" = "Hala!";

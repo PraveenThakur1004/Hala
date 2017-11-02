@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040037C41FA7517600407045 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040037C61FA7517600407045 /* Localizable.strings */; };
+		040037D31FA7577100407045 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040037D51FA7577100407045 /* Register.storyboard */; };
+		0403EDF21FA46B7B009AB961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EDF11FA46B7B009AB961 /* AppDelegate.swift */; };
+		0403EDF71FA46B7B009AB961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403EDF51FA46B7B009AB961 /* Main.storyboard */; };
+		0403EDF91FA46B7B009AB961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0403EDF81FA46B7B009AB961 /* Assets.xcassets */; };
+		0403EDFC1FA46B7B009AB961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403EDFA1FA46B7B009AB961 /* LaunchScreen.storyboard */; };
+		0403EE261FA46BA2009AB961 /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE031FA46B9D009AB961 /* SubscriptionCell.swift */; };
+		0403EE271FA46BA2009AB961 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE041FA46B9D009AB961 /* MyAnnotation.swift */; };
+		0403EE281FA46BA2009AB961 /* EarningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE051FA46B9D009AB961 /* EarningController.swift */; };
+		0403EE291FA46BA2009AB961 /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE061FA46B9D009AB961 /* ChangePasswordController.swift */; };
+		0403EE2A1FA46BA2009AB961 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE071FA46B9E009AB961 /* ChatMessage.swift */; };
+		0403EE2B1FA46BA2009AB961 /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE081FA46B9E009AB961 /* PeopleCell.swift */; };
+		0403EE2C1FA46BA2009AB961 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE091FA46B9E009AB961 /* HomeController.swift */; };
+		0403EE2D1FA46BA2009AB961 /* HalaExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE0A1FA46B9E009AB961 /* HalaExtensions.swift */; };
+		0403EE2E1FA46BA2009AB961 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE0B1FA46B9E009AB961 /* MapController.swift */; };
+		0403EE2F1FA46BA2009AB961 /* LotteryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE0C1FA46B9E009AB961 /* LotteryCell.swift */; };
+		0403EE301FA46BA2009AB961 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE0D1FA46B9E009AB961 /* ForgotPasswordViewController.swift */; };
+		0403EE311FA46BA2009AB961 /* ChatTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE0F1FA46B9E009AB961 /* ChatTypeController.swift */; };
+		0403EE321FA46BA2009AB961 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE101FA46B9E009AB961 /* DataModel.swift */; };
+		0403EE331FA46BA2009AB961 /* GroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE111FA46B9F009AB961 /* GroupsController.swift */; };
+		0403EE341FA46BA2009AB961 /* halaConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE121FA46B9F009AB961 /* halaConstants.swift */; };
+		0403EE351FA46BA2009AB961 /* HotListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE131FA46B9F009AB961 /* HotListController.swift */; };
+		0403EE361FA46BA2009AB961 /* PeopleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE141FA46B9F009AB961 /* PeopleController.swift */; };
+		0403EE371FA46BA2009AB961 /* CreatGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE151FA46B9F009AB961 /* CreatGroupController.swift */; };
+		0403EE381FA46BA2009AB961 /* WebberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE161FA46B9F009AB961 /* WebberController.swift */; };
+		0403EE391FA46BA2009AB961 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE171FA46B9F009AB961 /* RegisterController.swift */; };
+		0403EE3A1FA46BA2009AB961 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE191FA46BA0009AB961 /* LoginController.swift */; };
+		0403EE3B1FA46BA2009AB961 /* LotteryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE1A1FA46BA0009AB961 /* LotteryController.swift */; };
+		0403EE3C1FA46BA2009AB961 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE1B1FA46BA0009AB961 /* ProfileController.swift */; };
+		0403EE3D1FA46BA2009AB961 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE1C1FA46BA0009AB961 /* ServerResponse.swift */; };
+		0403EE3E1FA46BA2009AB961 /* RequestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE1D1FA46BA1009AB961 /* RequestsController.swift */; };
+		0403EE3F1FA46BA2009AB961 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE1E1FA46BA1009AB961 /* SettingsController.swift */; };
+		0403EE401FA46BA2009AB961 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE1F1FA46BA1009AB961 /* CommonUtility.swift */; };
+		0403EE411FA46BA2009AB961 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE201FA46BA1009AB961 /* ChatController.swift */; };
+		0403EE421FA46BA2009AB961 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE211FA46BA1009AB961 /* RequestCell.swift */; };
+		0403EE431FA46BA2009AB961 /* BlockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE221FA46BA2009AB961 /* BlockController.swift */; };
+		0403EE441FA46BA2009AB961 /* HomeTblVwCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE231FA46BA2009AB961 /* HomeTblVwCell.swift */; };
+		0403EE451FA46BA2009AB961 /* ServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE251FA46BA2009AB961 /* ServerData.swift */; };
+		0403EE471FA46BB0009AB961 /* SubscriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE461FA46BB0009AB961 /* SubscriptionController.swift */; };
+		04176FF01FA79BCC00C6DBA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0403EE481FA46C02009AB961 /* GoogleService-Info.plist */; };
+		041A80D11FA8415C00A595B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041A80D31FA8415C00A595B9 /* InfoPlist.strings */; };
+		04505F691FA7358C001EBB2C /* LotteryCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0403EE0E1FA46B9E009AB961 /* LotteryCell.xib */; };
+		04505F6A1FA739D3001EBB2C /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0403EE181FA46BA0009AB961 /* FontAwesome.otf */; };
+		04E618EA1FA88FED00DD364D /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E618E91FA88FEC00DD364D /* IAPManager.swift */; };
+		782A360FB0D8018C56A6FCD3 /* Pods_Hala_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2116998ACBDBDF482B2B786 /* Pods_Hala_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040037C51FA7517600407045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		040037C71FA7518000407045 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		040037CE1FA7520000407045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		040037D41FA7577100407045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Register.storyboard; sourceTree = "<group>"; };
+		040037D71FA757A600407045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Register.strings; sourceTree = "<group>"; };
+		040037D81FA757A900407045 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Register.strings; sourceTree = "<group>"; };
+		0403EDEE1FA46B7B009AB961 /* Hala!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hala!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0403EDF11FA46B7B009AB961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0403EDF61FA46B7B009AB961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0403EDF81FA46B7B009AB961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0403EDFB1FA46B7B009AB961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0403EDFD1FA46B7B009AB961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0403EE031FA46B9D009AB961 /* SubscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		0403EE041FA46B9D009AB961 /* MyAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		0403EE051FA46B9D009AB961 /* EarningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarningController.swift; sourceTree = "<group>"; };
+		0403EE061FA46B9D009AB961 /* ChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
+		0403EE071FA46B9E009AB961 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		0403EE081FA46B9E009AB961 /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		0403EE091FA46B9E009AB961 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0403EE0A1FA46B9E009AB961 /* HalaExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalaExtensions.swift; sourceTree = "<group>"; };
+		0403EE0B1FA46B9E009AB961 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		0403EE0C1FA46B9E009AB961 /* LotteryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryCell.swift; sourceTree = "<group>"; };
+		0403EE0D1FA46B9E009AB961 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0403EE0E1FA46B9E009AB961 /* LotteryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LotteryCell.xib; sourceTree = "<group>"; };
+		0403EE0F1FA46B9E009AB961 /* ChatTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTypeController.swift; sourceTree = "<group>"; };
+		0403EE101FA46B9E009AB961 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		0403EE111FA46B9F009AB961 /* GroupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsController.swift; sourceTree = "<group>"; };
+		0403EE121FA46B9F009AB961 /* halaConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = halaConstants.swift; sourceTree = "<group>"; };
+		0403EE131FA46B9F009AB961 /* HotListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotListController.swift; sourceTree = "<group>"; };
+		0403EE141FA46B9F009AB961 /* PeopleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleController.swift; sourceTree = "<group>"; };
+		0403EE151FA46B9F009AB961 /* CreatGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatGroupController.swift; sourceTree = "<group>"; };
+		0403EE161FA46B9F009AB961 /* WebberController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebberController.swift; sourceTree = "<group>"; };
+		0403EE171FA46B9F009AB961 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		0403EE181FA46BA0009AB961 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		0403EE191FA46BA0009AB961 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0403EE1A1FA46BA0009AB961 /* LotteryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryController.swift; sourceTree = "<group>"; };
+		0403EE1B1FA46BA0009AB961 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		0403EE1C1FA46BA0009AB961 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		0403EE1D1FA46BA1009AB961 /* RequestsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsController.swift; sourceTree = "<group>"; };
+		0403EE1E1FA46BA1009AB961 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		0403EE1F1FA46BA1009AB961 /* CommonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
+		0403EE201FA46BA1009AB961 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		0403EE211FA46BA1009AB961 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		0403EE221FA46BA2009AB961 /* BlockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockController.swift; sourceTree = "<group>"; };
+		0403EE231FA46BA2009AB961 /* HomeTblVwCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTblVwCell.swift; sourceTree = "<group>"; };
+		0403EE241FA46BA2009AB961 /* placeholder2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder2.png; sourceTree = "<group>"; };
+		0403EE251FA46BA2009AB961 /* ServerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerData.swift; sourceTree = "<group>"; };
+		0403EE461FA46BB0009AB961 /* SubscriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionController.swift; sourceTree = "<group>"; };
+		0403EE481FA46C02009AB961 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0403EE4A1FA46E33009AB961 /* Hala!-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hala!-Bridging-Header.h"; sourceTree = "<group>"; };
+		0409AB4E1FA8547300D8C436 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		041A80D21FA8415C00A595B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041A80D41FA8415D00A595B9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04E618E91FA88FEC00DD364D /* IAPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		04E618EB1FA8900B00DD364D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1FB32C1B2AE8E4C5EC904E45 /* Pods-Hala!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hala!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hala!/Pods-Hala!.release.xcconfig"; sourceTree = "<group>"; };
+		C2116998ACBDBDF482B2B786 /* Pods_Hala_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hala_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B8D5524A7A72E453AB188A /* Pods-Hala!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hala!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hala!/Pods-Hala!.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0403EDEB1FA46B7B009AB961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782A360FB0D8018C56A6FCD3 /* Pods_Hala_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403EDE51FA46B7B009AB961 = {
+			isa = PBXGroup;
+			children = (
+				0403EDF01FA46B7B009AB961 /* Hala! */,
+				0403EDEF1FA46B7B009AB961 /* Products */,
+				BCA74ACA4FFBA9215470B530 /* Pods */,
+				2DACDA397998E38879A3F10F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0403EDEF1FA46B7B009AB961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0403EDEE1FA46B7B009AB961 /* Hala!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0403EDF01FA46B7B009AB961 /* Hala! */ = {
+			isa = PBXGroup;
+			children = (
+				040037D51FA7577100407045 /* Register.storyboard */,
+				0403EDF11FA46B7B009AB961 /* AppDelegate.swift */,
+				04E618E91FA88FEC00DD364D /* IAPManager.swift */,
+				041A80D31FA8415C00A595B9 /* InfoPlist.strings */,
+				040037C61FA7517600407045 /* Localizable.strings */,
+				0403EE221FA46BA2009AB961 /* BlockController.swift */,
+				0403EE461FA46BB0009AB961 /* SubscriptionController.swift */,
+				0403EE061FA46B9D009AB961 /* ChangePasswordController.swift */,
+				0403EE201FA46BA1009AB961 /* ChatController.swift */,
+				0403EE071FA46B9E009AB961 /* ChatMessage.swift */,
+				0403EE0F1FA46B9E009AB961 /* ChatTypeController.swift */,
+				0403EE1F1FA46BA1009AB961 /* CommonUtility.swift */,
+				0403EE151FA46B9F009AB961 /* CreatGroupController.swift */,
+				0403EE101FA46B9E009AB961 /* DataModel.swift */,
+				0403EE051FA46B9D009AB961 /* EarningController.swift */,
+				0403EE181FA46BA0009AB961 /* FontAwesome.otf */,
+				0403EE0D1FA46B9E009AB961 /* ForgotPasswordViewController.swift */,
+				0403EE111FA46B9F009AB961 /* GroupsController.swift */,
+				0403EE121FA46B9F009AB961 /* halaConstants.swift */,
+				0403EE0A1FA46B9E009AB961 /* HalaExtensions.swift */,
+				0403EE091FA46B9E009AB961 /* HomeController.swift */,
+				0403EE231FA46BA2009AB961 /* HomeTblVwCell.swift */,
+				0403EE131FA46B9F009AB961 /* HotListController.swift */,
+				0403EE191FA46BA0009AB961 /* LoginController.swift */,
+				0403EE0C1FA46B9E009AB961 /* LotteryCell.swift */,
+				0403EE0E1FA46B9E009AB961 /* LotteryCell.xib */,
+				0403EE1A1FA46BA0009AB961 /* LotteryController.swift */,
+				0403EE0B1FA46B9E009AB961 /* MapController.swift */,
+				0403EE041FA46B9D009AB961 /* MyAnnotation.swift */,
+				0403EE081FA46B9E009AB961 /* PeopleCell.swift */,
+				0403EE141FA46B9F009AB961 /* PeopleController.swift */,
+				0403EE241FA46BA2009AB961 /* placeholder2.png */,
+				0403EE1B1FA46BA0009AB961 /* ProfileController.swift */,
+				0403EE171FA46B9F009AB961 /* RegisterController.swift */,
+				0403EE211FA46BA1009AB961 /* RequestCell.swift */,
+				0403EE1D1FA46BA1009AB961 /* RequestsController.swift */,
+				0403EE251FA46BA2009AB961 /* ServerData.swift */,
+				0403EE1C1FA46BA0009AB961 /* ServerResponse.swift */,
+				0403EE1E1FA46BA1009AB961 /* SettingsController.swift */,
+				0403EE031FA46B9D009AB961 /* SubscriptionCell.swift */,
+				0403EE161FA46B9F009AB961 /* WebberController.swift */,
+				0403EE481FA46C02009AB961 /* GoogleService-Info.plist */,
+				0403EDF51FA46B7B009AB961 /* Main.storyboard */,
+				0403EDF81FA46B7B009AB961 /* Assets.xcassets */,
+				0403EDFA1FA46B7B009AB961 /* LaunchScreen.storyboard */,
+				0403EDFD1FA46B7B009AB961 /* Info.plist */,
+				0403EE4A1FA46E33009AB961 /* Hala!-Bridging-Header.h */,
+			);
+			path = "Hala!";
+			sourceTree = "<group>";
+		};
+		2DACDA397998E38879A3F10F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E618EB1FA8900B00DD364D /* StoreKit.framework */,
+				C2116998ACBDBDF482B2B786 /* Pods_Hala_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA74ACA4FFBA9215470B530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8D5524A7A72E453AB188A /* Pods-Hala!.debug.xcconfig */,
+				1FB32C1B2AE8E4C5EC904E45 /* Pods-Hala!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0403EDED1FA46B7B009AB961 /* Hala! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0403EE001FA46B7B009AB961 /* Build configuration list for PBXNativeTarget "Hala!" */;
+			buildPhases = (
+				6566B16C5112FE5B092DE95E /* [CP] Check Pods Manifest.lock */,
+				0403EDEA1FA46B7B009AB961 /* Sources */,
+				0403EDEB1FA46B7B009AB961 /* Frameworks */,
+				0403EDEC1FA46B7B009AB961 /* Resources */,
+				99280AB0866605636C0D6B9F /* [CP] Embed Pods Frameworks */,
+				C76F2DA875A2D6A143935095 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hala!";
+			productName = "Hala!";
+			productReference = 0403EDEE1FA46B7B009AB961 /* Hala!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0403EDE61FA46B7B009AB961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Orem;
+				TargetAttributes = {
+					0403EDED1FA46B7B009AB961 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0403EDE91FA46B7B009AB961 /* Build configuration list for PBXProject "Hala!" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 0403EDE51FA46B7B009AB961;
+			productRefGroup = 0403EDEF1FA46B7B009AB961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0403EDED1FA46B7B009AB961 /* Hala! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0403EDEC1FA46B7B009AB961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04176FF01FA79BCC00C6DBA6 /* GoogleService-Info.plist in Resources */,
+				041A80D11FA8415C00A595B9 /* InfoPlist.strings in Resources */,
+				04505F6A1FA739D3001EBB2C /* FontAwesome.otf in Resources */,
+				0403EDFC1FA46B7B009AB961 /* LaunchScreen.storyboard in Resources */,
+				040037C41FA7517600407045 /* Localizable.strings in Resources */,
+				0403EDF91FA46B7B009AB961 /* Assets.xcassets in Resources */,
+				0403EDF71FA46B7B009AB961 /* Main.storyboard in Resources */,
+				040037D31FA7577100407045 /* Register.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6566B16C5112FE5B092DE95E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hala!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99280AB0866605636C0D6B9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hala!/Pods-Hala!-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CZPicker/CZPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JHTAlertController/JHTAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/LocationRequestManager/LocationRequestManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CZPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTPopOverMenu_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JHTAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LocationRequestManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hala!/Pods-Hala!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C76F2DA875A2D6A143935095 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hala!/Pods-Hala!-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hala!/Pods-Hala!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0403EDEA1FA46B7B009AB961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E618EA1FA88FED00DD364D /* IAPManager.swift in Sources */,
+				04505F691FA7358C001EBB2C /* LotteryCell.xib in Sources */,
+				0403EE3F1FA46BA2009AB961 /* SettingsController.swift in Sources */,
+				0403EE291FA46BA2009AB961 /* ChangePasswordController.swift in Sources */,
+				0403EE341FA46BA2009AB961 /* halaConstants.swift in Sources */,
+				0403EE401FA46BA2009AB961 /* CommonUtility.swift in Sources */,
+				0403EE3B1FA46BA2009AB961 /* LotteryController.swift in Sources */,
+				0403EE261FA46BA2009AB961 /* SubscriptionCell.swift in Sources */,
+				0403EE441FA46BA2009AB961 /* HomeTblVwCell.swift in Sources */,
+				0403EE2B1FA46BA2009AB961 /* PeopleCell.swift in Sources */,
+				0403EE421FA46BA2009AB961 /* RequestCell.swift in Sources */,
+				0403EDF21FA46B7B009AB961 /* AppDelegate.swift in Sources */,
+				0403EE351FA46BA2009AB961 /* HotListController.swift in Sources */,
+				0403EE431FA46BA2009AB961 /* BlockController.swift in Sources */,
+				0403EE2C1FA46BA2009AB961 /* HomeController.swift in Sources */,
+				0403EE2D1FA46BA2009AB961 /* HalaExtensions.swift in Sources */,
+				0403EE3D1FA46BA2009AB961 /* ServerResponse.swift in Sources */,
+				0403EE411FA46BA2009AB961 /* ChatController.swift in Sources */,
+				0403EE361FA46BA2009AB961 /* PeopleController.swift in Sources */,
+				0403EE2A1FA46BA2009AB961 /* ChatMessage.swift in Sources */,
+				0403EE471FA46BB0009AB961 /* SubscriptionController.swift in Sources */,
+				0403EE321FA46BA2009AB961 /* DataModel.swift in Sources */,
+				0403EE3A1FA46BA2009AB961 /* LoginController.swift in Sources */,
+				0403EE281FA46BA2009AB961 /* EarningController.swift in Sources */,
+				0403EE381FA46BA2009AB961 /* WebberController.swift in Sources */,
+				0403EE311FA46BA2009AB961 /* ChatTypeController.swift in Sources */,
+				0403EE331FA46BA2009AB961 /* GroupsController.swift in Sources */,
+				0403EE301FA46BA2009AB961 /* ForgotPasswordViewController.swift in Sources */,
+				0403EE3E1FA46BA2009AB961 /* RequestsController.swift in Sources */,
+				0403EE2E1FA46BA2009AB961 /* MapController.swift in Sources */,
+				0403EE391FA46BA2009AB961 /* RegisterController.swift in Sources */,
+				0403EE371FA46BA2009AB961 /* CreatGroupController.swift in Sources */,
+				0403EE271FA46BA2009AB961 /* MyAnnotation.swift in Sources */,
+				0403EE451FA46BA2009AB961 /* ServerData.swift in Sources */,
+				0403EE2F1FA46BA2009AB961 /* LotteryCell.swift in Sources */,
+				0403EE3C1FA46BA2009AB961 /* ProfileController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040037C61FA7517600407045 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040037C51FA7517600407045 /* en */,
+				040037C71FA7518000407045 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		040037D51FA7577100407045 /* Register.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040037D41FA7577100407045 /* Base */,
+				040037D71FA757A600407045 /* en */,
+				040037D81FA757A900407045 /* ar */,
+			);
+			name = Register.storyboard;
+			sourceTree = "<group>";
+		};
+		0403EDF51FA46B7B009AB961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0403EDF61FA46B7B009AB961 /* Base */,
+				040037CE1FA7520000407045 /* en */,
+				0409AB4E1FA8547300D8C436 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0403EDFA1FA46B7B009AB961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0403EDFB1FA46B7B009AB961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		041A80D31FA8415C00A595B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041A80D21FA8415C00A595B9 /* en */,
+				041A80D41FA8415D00A595B9 /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0403EDFE1FA46B7B009AB961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Scrubnote LLC (5TNGW5P8B9)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4c69b5be-9191-4dba-9684-81dafae23952";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0403EDFF1FA46B7B009AB961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Scrubnote LLC (5TNGW5P8B9)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4c69b5be-9191-4dba-9684-81dafae23952";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0403EE011FA46B7B009AB961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B8D5524A7A72E453AB188A /* Pods-Hala!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TNGW5P8B9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hala!",
+				);
+				INFOPLIST_FILE = "Hala!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halaapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hala!/Hala!-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0403EE021FA46B7B009AB961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB32C1B2AE8E4C5EC904E45 /* Pods-Hala!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TNGW5P8B9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hala!",
+				);
+				INFOPLIST_FILE = "Hala!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halaapp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hala!/Hala!-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0403EDE91FA46B7B009AB961 /* Build configuration list for PBXProject "Hala!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0403EDFE1FA46B7B009AB961 /* Debug */,
+				0403EDFF1FA46B7B009AB961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0403EE001FA46B7B009AB961 /* Build configuration list for PBXNativeTarget "Hala!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0403EE011FA46B7B009AB961 /* Debug */,
+				0403EE021FA46B7B009AB961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0403EDE61FA46B7B009AB961 /* Project object */;
+}

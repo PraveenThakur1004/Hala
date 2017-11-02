@@ -1,0 +1,306 @@
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "0mo-iE-iiY"; */
+"0mo-iE-iiY.placeholder" = "غير مذكور";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1CA-bb-YDv"; */
+"1CA-bb-YDv.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "280-kJ-Di0"; */
+"280-kJ-Di0.placeholder" = "غير مذكور";
+
+/* Class = "UILabel"; text = "Height"; ObjectID = "2Lo-rA-xLS"; */
+"2Lo-rA-xLS.text" = "الطول";
+
+/* Class = "UIButton"; normalTitle = "Earn Points"; ObjectID = "35h-aN-QAr"; */
+"35h-aN-QAr.normalTitle" = "كسب النقاط";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "39i-xC-N9F"; */
+"39i-xC-N9F.text" = "Label";
+
+/* Class = "UILabel"; text = "Eye Color"; ObjectID = "3bu-v3-JOu"; */
+"3bu-v3-JOu.text" = "لون العيون";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "3fZ-oi-Srt"; */
+"3fZ-oi-Srt.text" = "مساعدة";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "4Oy-o0-pzw"; */
+"4Oy-o0-pzw.text" = "من نحن";
+
+/* Class = "UILabel"; text = "No users blocked"; ObjectID = "4ln-Kb-px5"; */
+"4ln-Kb-px5.text" = "لا يوجد محظورين";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "524-UD-VYE"; */
+"524-UD-VYE.placeholder" = "غير مذكور";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5Jo-5I-ilx"; */
+"5Jo-5I-ilx.text" = "Label";
+
+/* Class = "UILabel"; text = "Lily Blossom"; ObjectID = "6Dg-Go-r0Y"; */
+"6Dg-Go-r0Y.text" = "Lily Blossom";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "6X1-ab-q8h"; */
+"6X1-ab-q8h.text" = "ID";
+
+/* Class = "UILabel"; text = "Age"; ObjectID = "6gI-Px-lEF"; */
+"6gI-Px-lEF.text" = "العمر";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7ca-J6-Cc9"; */
+"7ca-J6-Cc9.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8U4-Mq-rfY"; */
+"8U4-Mq-rfY.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "8kH-IV-wbh"; */
+"8kH-IV-wbh.placeholder" = "غير مذكور";
+
+/* Class = "UIButton"; normalTitle = "DELETE"; ObjectID = "9bn-e4-EJW"; */
+"9bn-e4-EJW.normalTitle" = "المجلس";
+
+/* Class = "UILabel"; text = "Lily Blossom"; ObjectID = "A9c-vQ-1KC"; */
+"A9c-vQ-1KC.text" = "Lily Blossom";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bcw-eo-qGP"; */
+"Bcw-eo-qGP.text" = "Label";
+
+/* Class = "UILabel"; text = "22"; ObjectID = "DNo-xL-5ZT"; */
+"DNo-xL-5ZT.text" = "22";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DPV-MX-8EK"; */
+"DPV-MX-8EK.text" = "Label";
+
+/* Class = "UILabel"; text = "22"; ObjectID = "Fra-ZL-Tie"; */
+"Fra-ZL-Tie.text" = "22";
+
+/* Class = "UILabel"; text = "Created : 26,Jan 2016"; ObjectID = "Fwa-2Y-ieu"; */
+"Fwa-2Y-ieu.text" = "Created : 26,Jan 2016";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "G62-8c-CD4"; */
+"G62-8c-CD4.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Old Password"; ObjectID = "GAV-4Y-a4q"; */
+"GAV-4Y-a4q.placeholder" = "كلمة المرور القديمة";
+
+/* Class = "UILabel"; text = "50"; ObjectID = "GI1-gq-2EI"; */
+"GI1-gq-2EI.text" = "50";
+
+/* Class = "UILabel"; text = "LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel"; ObjectID = "GNG-8C-D1n"; */
+"GNG-8C-D1n.text" = "LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel";
+
+/* Class = "UILabel"; text = "Privacy Policies"; ObjectID = "GVc-Kh-6AK"; */
+"GVc-Kh-6AK.text" = "سياسة الخصوصية";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GYb-em-gkL"; */
+"GYb-em-gkL.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; Gm7-Ea-KIw.segmentTitles[0] = "Chats"; ObjectID = "Gm7-Ea-KIw"; */
+"Gm7-Ea-KIw.segmentTitles[0]" = "محادثات";
+
+/* Class = "UISegmentedControl"; Gm7-Ea-KIw.segmentTitles[1] = "Groups"; ObjectID = "Gm7-Ea-KIw"; */
+"Gm7-Ea-KIw.segmentTitles[1]" = "مجالس";
+
+/* Class = "UILabel"; text = "Hair Color"; ObjectID = "Gt4-Tk-fwb"; */
+"Gt4-Tk-fwb.text" = "لون الشعر";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Hqa-i2-CgM"; */
+"Hqa-i2-CgM.text" = "Label";
+
+/* Class = "UILabel"; text = "Lily Blossom"; ObjectID = "I6u-8j-9Au"; */
+"I6u-8j-9Au.text" = "Lily Blossom";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "JE5-gS-3Wl"; */
+"JE5-gS-3Wl.placeholder" = "غير مذكور";
+
+/* Class = "UIButton"; normalTitle = "UNBLOCK"; ObjectID = "LF4-Wa-IfG"; */
+"LF4-Wa-IfG.normalTitle" = "إلغاء الحظر";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LSS-48-LcI"; */
+"LSS-48-LcI.text" = "Label";
+
+/* Class = "UILabel"; text = "No Users hotlisted"; ObjectID = "MNu-dK-TyG"; */
+"MNu-dK-TyG.text" = "مافي حد بالمفضلة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "N7v-8F-Jub"; */
+"N7v-8F-Jub.text" = "Label";
+
+/* Class = "UILabel"; text = "Relationship"; ObjectID = "NC4-bM-8mF"; */
+"NC4-bM-8mF.text" = "وضعك العاطفي";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Oin-yR-QM7"; */
+"Oin-yR-QM7.text" = "Label";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "P7U-mN-FJk"; */
+"P7U-mN-FJk.text" = "إشعارات";
+
+/* Class = "UILabel"; text = "i'm free to chat."; ObjectID = "QNH-bj-9mR"; */
+"QNH-bj-9mR.text" = "فاضي سوالف";
+
+/* Class = "UIButton"; normalTitle = "Purchase Points"; ObjectID = "Qah-4p-tz3"; */
+"Qah-4p-tz3.normalTitle" = "شراء نقاط";
+
+/* Class = "UILabel"; text = "Lily Blossom"; ObjectID = "RJm-7X-ly7"; */
+"RJm-7X-ly7.text" = "Lily Blossom";
+
+/* Class = "UILabel"; text = "Get"; ObjectID = "ScU-aV-iQp"; */
+"ScU-aV-iQp.text" = "Get";
+
+/* Class = "UILabel"; text = "Change Password"; ObjectID = "UtD-5Z-bSg"; */
+"UtD-5Z-bSg.text" = "تغيير كلمة المرور";
+
+/* Class = "UILabel"; text = "0.80km"; ObjectID = "UzR-Pi-s0B"; */
+"UzR-Pi-s0B.text" = "0.80km";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "VCB-3b-me2"; */
+"VCB-3b-me2.placeholder" = "غير مذكور";
+
+/* Class = "UILabel"; text = "I'm free to chat"; ObjectID = "VXI-vt-gXU"; */
+"VXI-vt-gXU.text" = "فاضي سوالف";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "Vf8-1K-9UP"; */
+"Vf8-1K-9UP.placeholder" = "غير مذكور";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "WV5-ld-uBw"; */
+"WV5-ld-uBw.placeholder" = "غير مذكور";
+
+/* Class = "UIButton"; normalTitle = "Report"; ObjectID = "WmH-ge-s7E"; */
+"WmH-ge-s7E.normalTitle" = "تبليغ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XPM-jA-cgU"; */
+"XPM-jA-cgU.text" = "Label";
+
+/* Class = "UILabel"; text = "100 points"; ObjectID = "XdK-QA-rTf"; */
+"XdK-QA-rTf.text" = "100 points";
+
+/* Class = "UILabel"; text = "100 Points"; ObjectID = "YSj-yE-ZRH"; */
+"YSj-yE-ZRH.text" = "100 Points";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "ZYa-cq-kma"; */
+"ZYa-cq-kma.placeholder" = "غير مذكور";
+
+/* Class = "UITextField"; placeholder = "New Password"; ObjectID = "aSV-bd-Rsb"; */
+"aSV-bd-Rsb.placeholder" = "كلمة المرور الجديدة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bDA-Q1-LA6"; */
+"bDA-Q1-LA6.text" = "Label";
+
+/* Class = "UILabel"; text = "0.80km"; ObjectID = "cDc-Hn-aTb"; */
+"cDc-Hn-aTb.text" = "0.80km";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cnc-2f-NHT"; */
+"cnc-2f-NHT.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dED-8T-80B"; */
+"dED-8T-80B.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Smoking"; ObjectID = "dz6-Ps-xpp"; */
+"dz6-Ps-xpp.text" = "تدخن";
+
+/* Class = "UILabel"; text = "Blood type"; ObjectID = "e7F-Ci-F4R"; */
+"e7F-Ci-F4R.text" = "نوع الدم";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ef6-dk-1L3"; */
+"ef6-dk-1L3.text" = "Label";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "fHc-3q-oez"; */
+"fHc-3q-oez.text" = "إعدادات";
+
+/* Class = "UILabel"; text = "Earn More Points"; ObjectID = "fSL-0b-Kyb"; */
+"fSL-0b-Kyb.text" = "الحصول على مزيد من النقاط";
+
+/* Class = "UILabel"; text = "Lily Blossom"; ObjectID = "fT3-Lr-HqK"; */
+"fT3-Lr-HqK.text" = "Lily Blossom";
+
+/* Class = "UILabel"; text = "I'm free to chat."; ObjectID = "gON-k9-F68"; */
+"gON-k9-F68.text" = "فاضي سوالف";
+
+/* Class = "UILabel"; text = "Interested In"; ObjectID = "gbg-jH-fO7"; */
+"gbg-jH-fO7.text" = "اهتماماتي";
+
+/* Class = "UILabel"; text = "Introduction"; ObjectID = "iwG-7A-IFH"; */
+"iwG-7A-IFH.text" = "مقدمة";
+
+/* Class = "UIButton"; normalTitle = "Chat"; ObjectID = "jio-mg-UZU"; */
+"jio-mg-UZU.normalTitle" = "محادثة";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "jlq-Ar-bNQ"; */
+"jlq-Ar-bNQ.placeholder" = "غير مذكور";
+
+/* Class = "UITextField"; placeholder = "Group Name"; ObjectID = "kH6-tu-eyt"; */
+"kH6-tu-eyt.placeholder" = "اسم المجلس";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kg1-gd-DaL"; */
+"kg1-gd-DaL.text" = "Label";
+
+/* Class = "UILabel"; text = ""; ObjectID = "lOA-eY-mNI"; */
+"lOA-eY-mNI.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lTO-u9-FL5"; */
+"lTO-u9-FL5.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mcs-Q1-fKY"; */
+"mcs-Q1-fKY.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mwK-ye-slM"; */
+"mwK-ye-slM.text" = "Label";
+
+/* Class = "UITextView"; text = "Not Mentioned"; ObjectID = "n1m-0F-FtH"; */
+"n1m-0F-FtH.text" = "غير مذكور";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nY1-tR-h43"; */
+"nY1-tR-h43.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "nfV-Hy-2ep"; */
+"nfV-Hy-2ep.placeholder" = "غير مذكور";
+
+/* Class = "UILabel"; text = "Drinking"; ObjectID = "pI4-Zl-Mta"; */
+"pI4-Zl-Mta.text" = "تشرب";
+
+/* Class = "UIButton"; normalTitle = "Create"; ObjectID = "pa7-qC-ae3"; */
+"pa7-qC-ae3.normalTitle" = "انشاء";
+
+/* Class = "UIButton"; normalTitle = "Daily Points"; ObjectID = "py0-t3-Zqn"; */
+"py0-t3-Zqn.normalTitle" = "نقاط يومية";
+
+/* Class = "UILabel"; text = "22"; ObjectID = "qMs-td-sVB"; */
+"qMs-td-sVB.text" = "22";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "qdd-Dk-haV"; */
+"qdd-Dk-haV.normalTitle" = "التقديم";
+
+/* Class = "UIButton"; normalTitle = "Chat"; ObjectID = "r08-q4-DzM"; */
+"r08-q4-DzM.normalTitle" = "محادثات";
+
+/* Class = "UITextField"; placeholder = "Not Mentioned"; ObjectID = "uk5-vp-eNU"; */
+"uk5-vp-eNU.placeholder" = "غير مذكور";
+
+/* Class = "UILabel"; text = "0.80km"; ObjectID = "vWe-F9-ltc"; */
+"vWe-F9-ltc.text" = "0.80km";
+
+/* Class = "UILabel"; text = "Hobby"; ObjectID = "vtN-Pa-sWS"; */
+"vtN-Pa-sWS.text" = "هواية";
+
+/* Class = "UILabel"; text = "0.8 km"; ObjectID = "wLP-j4-ras"; */
+"wLP-j4-ras.text" = "0.8 km";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "xGH-aW-wyR"; */
+"xGH-aW-wyR.placeholder" = "تأكيد كلمة المرور";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xQ4-ke-BUW"; */
+"xQ4-ke-BUW.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xm2-Ch-jxe"; */
+"xm2-Ch-jxe.text" = "Label";
+
+/* Class = "UILabel"; text = "Buy for $20"; ObjectID = "yM0-cR-oEe"; */
+"yM0-cR-oEe.text" = "Buy for $20";
+
+/* Class = "UISegmentedControl"; z1u-m3-lK0.segmentTitles[0] = "My Groups"; ObjectID = "z1u-m3-lK0"; */
+"z1u-m3-lK0.segmentTitles[0]" = "مجلسي";
+
+/* Class = "UISegmentedControl"; z1u-m3-lK0.segmentTitles[1] = "Other Groups"; ObjectID = "z1u-m3-lK0"; */
+"z1u-m3-lK0.segmentTitles[1]" = "مجالس اخرى";
+
+/* Class = "UILabel"; text = "22"; ObjectID = "zRF-zj-mzd"; */
+"zRF-zj-mzd.text" = "22";
+
+/* Class = "UILabel"; text = "Ethinicity"; ObjectID = "zyC-pU-Vbc"; */
+"zyC-pU-Vbc.text" = "العرق";
